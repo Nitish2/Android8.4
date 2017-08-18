@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/gingerbread"
+         />
+
+    <TextView
+        android:id="@+id/tittles"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="GingerBread"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Black"
+        android:layout_below="@+id/images"
+        android:layout_alignLeft="@+id/images"
+        android:layout_alignStart="@+id/images"
+         />
+</RelativeLayout>
